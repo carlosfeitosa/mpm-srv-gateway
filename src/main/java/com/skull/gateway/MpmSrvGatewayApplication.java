@@ -13,8 +13,13 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class MpmSrvGatewayApplication {
+public class MpmSrvGatewayApplication { // NOPMD by skull on 9/30/20, 10:53 PM
 
+	/**
+	 * Main class constructor.
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(MpmSrvGatewayApplication.class, args);
 	}
